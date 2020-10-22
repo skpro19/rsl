@@ -1,0 +1,8 @@
+prefix=/home/skpro19/catkin_ws/devel/.private/husky_high_level_controller
+
+Name: husky_high_level_controller
+Description: Description of husky_high_level_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
