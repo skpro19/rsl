@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/skpro19/catkin_ws/src/husky_high_level_controller/CMakeLists.txt:52:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+
+make: *** [cmake_check_build_system] Error 1

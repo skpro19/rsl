@@ -3,7 +3,8 @@
 <launch> 
     
     <include file="$(find husky_gazebo)/launch/husky_empty_world.launch">
-        <arg name="world_name" value="worlds/robocup14_spl_field.world" />    
+        <arg name="world_name" value="/home/skpro19/catkin_ws/src/husky_high_level_controller/worlds/singlePillar.world" />    
+        <arg name="laser_enabled" value="true" />
     </include>
     <node 
         
