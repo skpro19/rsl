@@ -6,12 +6,5 @@
         <arg name="world_name" value="/home/skpro19/catkin_ws/src/husky_high_level_controller/worlds/singlePillar.world" />    
         <arg name="laser_enabled" value="true" />
     </include>
-    <node 
-        
-        pkg="teleop_twist_keyboard"
-        type="teleop_twist_keyboard.py"
-        name="teleop_twist_keyboard"
-
-    />
 
 </launch>
