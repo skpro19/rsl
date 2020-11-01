@@ -55,7 +55,7 @@ class HuskyBot:
 
         vel_msg = Twist() 
 
-        tolerance = 1 
+        tolerance = 0.1 
 
         if pillar_dis > tolerance : 
 
