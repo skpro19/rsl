@@ -5,7 +5,7 @@ from sensor_msgs.msg import LaserScan
 import math
 from geometry_msgs.msg import PointStamped,  Point, Twist
 import tf
-
+from visualization_msgs.msg import Marker 
 
 class HuskyBot: 
 
@@ -19,16 +19,55 @@ class HuskyBot:
         #self.scan_subscriber = rospy.Subscriber('/scan' , LaserScan , self.laser_debugger) 
 
         self.velocity_publisher = rospy.Publisher('/cmd_vel' , Twist, queue_size = 1) 
+        
+        self.marker_publisher = rospy.Publisher('/rviz_visusalizer' ,  Marker, queue_size = 1)
 
         self.rate = rospy.Rate(1)
 
         rospy.spin()
     
-   
+    
+
+    def send_markers_for_rviz(self, pillar_dis, pillar_ang): 
         
+        print "Inside the send markers function" 
         
+        p_x = pillar_dis * math.cos(pillar_ang) 
+        p_y  = pillar_dis * math.sin(pillar_ang)
+
+        marker  = Marker() 
+
+        marker.header.frame_id = "base_laser" 
+        marker.header.stamp = rospy.Time(0) 
+        marker.id = 0 
+
+        marker.type = marker.ARROW
+        marker.action = marker.ADD 
+
+        marker.pose.position.x = p_x
+        marker.pose.position.y =p_y
+        marker.pose.position.z =0
+
+        marker.pose.orientation.x = 0 
+        marker.pose.orientation.y=0
+        marker.pose.orientation.z =0 
+        marker.pose.orientation.w= 1.0 
+
+        marker.scale.x = 1
+        marker.scale.y = 0.1
+        marker.scale.z= 0.1
+
+        marker.color.a = 1 
+        marker.color.r = 0
+        marker.color.g=1.0 
+        marker.color.b=0 
 
         
+        self.marker_publisher.publish(marker) 
+
+
+        
+
 
     def laser_callback(self, data): 
         
@@ -68,8 +107,8 @@ class HuskyBot:
 
             self.velocity_publisher.publish(vel_msg) 
 
-        
-
+                
+        self.send_markers_for_rviz(pillar_dis, pillar_ang)
 
 
     def laser_debugger(self, data) : 
@@ -94,4 +133,6 @@ if __name__ == '__main__' :
 
     x = HuskyBot()  
     
+    print "Staring the visualisation marker node" 
     
+        
