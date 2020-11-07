@@ -13,73 +13,98 @@ class HuskyBot:
 
         
         rospy.init_node('husky_node')
+            
+        print "huskyBot Initiated"
+
+
+        self.listener = tf.TransformListener() 
+        
+        self.listener.waitForTransform('/base_laser'  , '/odom' , rospy.Time().now(), rospy.Duration(10.0))
+
 
         self.scan_subscriber = rospy.Subscriber('/scan', LaserScan, self.laser_callback)
         
-        #self.scan_subscriber = rospy.Subscriber('/scan' , LaserScan , self.laser_debugger) 
 
-        self.velocity_publisher = rospy.Publisher('/cmd_vel' , Twist, queue_size = 1) 
+        self.velocity_publisher = rospy.Publisher('/cmd_vel' , Twist, queue_size = 1000) 
         
         self.marker_publisher = rospy.Publisher('/rviz_visusalizer' ,  Marker, queue_size = 1)
-
-        self.rate = rospy.Rate(1)
-
-        rospy.spin()
-    
-    
-    def transform_to_odom_debug(self, laser_point) : 
         
-        listener = tf.TransformListener()
+        rospy.spin()
+                
+    def send_markers_for_rviz(self, odom_point): 
+        
+        print "Inside the send markers function" 
+        
+        p_x = odom_point.point.x
+        p_y  = odom_point.point.y
 
+
+        marker  = Marker() 
+
+        #marker.header.frame_id = "base_laser" 
+        marker.header.frame_id = odom_point.header.frame_id
+        #marker.header.stamp = rospy.Time(0 
+        marker.header.stamp = odom_point.header.stamp 
+        marker.id = 0 
+
+        marker.type = marker.SPHERE
+        marker.action = marker.ADD 
+        
+        marker.pose.position = odom_point.point
+
+        #marker.pose.position.x = p_x
+        #marker.pose.position.y =p_y
+        #marker.pose.position.z =0
+
+        marker.pose.orientation.x = 0 
+        marker.pose.orientation.y=0
+        marker.pose.orientation.z =0 
+        marker.pose.orientation.w= 1.0 
+
+        marker.scale.x = 100
+        marker.scale.y =1
+        marker.scale.z= 1
+
+        marker.color.a = 1 
+        marker.color.r = 0
+        marker.color.g=1.0 
+        marker.color.b=0 
+
+        
+        self.marker_publisher.publish(marker) 
+
+
+    def transform_to_odom(self, laser_point): 
+    
+
+        laser_point_stamped  = PointStamped() 
+
+       
+        laser_point_stamped.header.frame_id = "/base_laser"
+        laser_point_stamped.header.stamp = rospy.Time() 
+
+        laser_point_stamped.point = laser_point 
+        
         try: 
             
-            listener.waitForTransform('/base_laser' , '/base_laser' , rospy.Time(), rospy.Duration(4.0))
             
 
-            odom_point = listener.transformPoint('/base_laser' , laser_point)
-            
-            print  "Inside the transform_to_odom function" 
-            
-            #self.print_stampedPoints(laser_point, "laser_frame")
-            
-            print " "
+            ''' Program runs successfully on changing the frame to any frame other than odom '''
 
-            #self.print_stampedPoints(odom_point, 'odom_frame')
+            target_frame = '/odom'
+
+            #self.listener.waitForTransform('/base_laser'  , target_frame , rospy.Time().now(), rospy.Duration(1.0))
+               
+            
+            odom_point = self.listener.transformPoint(target_frame , laser_point_stamped)
+            
             
             return odom_point
-
         except Exception as e: 
 
             print "Following exception was enconuntered while performing the transformation -> " + str(e)
-
-
-    def transform_to_odom(self, laser_point) : 
         
-        listener = tf.TransformListener()
 
-        try: 
-            
-            listener.waitForTransform('/odom' , '/base_laser' , rospy.Time(), rospy.Duration(4.0))
-
-            odom_point = listener.transformPoint('/odom' , laser_point)
-            
-            print  "Inside the transform_to_odom function" 
-            
-            #self.print_stampedPoints(laser_point, "laser_frame")
-            
-            print " "
-
-            #self.print_stampedPoints(odom_point, 'odom_frame')
-            
-            #return odom_point
-
-        except Exception as e: 
-
-            print "Following exception was enconuntered while performing the transformation -> " + str(e)
-
-
-
-            
 
 
     def send_markers_for_rviz(self, odom_point): 
@@ -98,7 +123,7 @@ class HuskyBot:
         marker.header.stamp = odom_point.header.stamp 
         marker.id = 0 
 
-        marker.type = marker.ARROW
+        marker.type = marker.SPHERE
         marker.action = marker.ADD 
         
         marker.pose.position = odom_point.point
@@ -124,15 +149,10 @@ class HuskyBot:
         
         self.marker_publisher.publish(marker) 
 
-    
-    def print_stampedPoints(self, pt, frame_name) : 
-        
-        print "Inside the print_stampedPoints function"
-        print frame_name , ".x: " , pt.point.x, " " , frame_name, ".y: " , pt.point.y, " " , frame_name, ".z: ", pt.point.z
-        print " "
 
     def laser_callback(self, data): 
         
+
         pillar_dis = 100000  
 
         pos = 0 
@@ -151,12 +171,11 @@ class HuskyBot:
         pillar_ang  = data.angle_min + pos * data.angle_increment 
 
 
-        print "pillar_dis: " , pillar_dis , " pillar_ang(rad): " , pillar_ang, " pillar_ang(deg): " , pillar_ang * 180 / (math.pi)
-            
-
         vel_msg = Twist() 
 
         tolerance = 0.1 
+        
+        ''' Simple P controller to navigate the bot ''' 
 
         if pillar_dis > tolerance : 
 
@@ -168,50 +187,23 @@ class HuskyBot:
             vel_msg.angular.z  = w_z 
 
             self.velocity_publisher.publish(vel_msg) 
-
-                
-        #self.send_markers_for_rviz(pillar_dis, pillar_ang)
         
+
         p_x = pillar_dis * math.cos(pillar_ang) 
         p_y = pillar_dis * math.sin(pillar_ang) 
-        p_z =0  
-
-        laser_point = PointStamped() 
-        
-        laser_point.header.frame_id = "base_laser" 
-        laser_point.header.stamp = rospy.Time(0)
-        
-        laser_point.point = Point (p_x , p_y, p_z)
+        p_z = 0 
         
 
-        #odom_point = self.transform_to_odom(laser_point)
+        laser_point = Point(p_x, p_y, p_z) 
         
-        self.transform_to_odom_debug(laser_point)
-
-        #self.print_stampedPoints(laser_point, 'laser_frame')
-        #self.print_stampedPoints(odom_point, 'odom_frame')
+        odom_point = self.transform_to_odom(laser_point)  
         
+        print "odom_point.x: " , odom_point.point.x , " odom_point.y: " , odom_point.point.y, " odom_point.z: " , odom_point.point.z
+
         
-        #self.send_markers_for_rviz(pillar_dis, pillar_ang)
+        self.send_markers_for_rviz(odom_point)
+
         
-        #self.send_markers_for_rviz(odom_point)
-        
-
-    def laser_debugger(self, data) : 
-
-        print "len(ranges) : " , len(data.ranges)
-
-
-        pos = [] 
-
-        for idx, val in enumerate(data.ranges): 
-
-            if not math.isinf(val) : 
-
-                pos.append(idx) 
-
-    
-
 
 
 
@@ -219,6 +211,5 @@ if __name__ == '__main__' :
 
     x = HuskyBot()  
     
-    print "Staring the visualisation marker node" 
     
         
