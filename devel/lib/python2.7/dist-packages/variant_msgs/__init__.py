@@ -1,0 +1,1 @@
+/home/skpro19/catkin_ws/devel/.private/variant_msgs/lib/python2.7/dist-packages/variant_msgs/__init__.py

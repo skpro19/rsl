@@ -1,0 +1,8 @@
+prefix=/home/skpro19/catkin_ws/devel/.private/variant_topic_tools
+
+Name: variant_topic_tools
+Description: Description of variant_topic_tools
+Version: 0.1.5
+Cflags: -I/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include
+Libs: -L${prefix}/lib -lvariant_topic_tools
+Requires: roscpp roslib variant_msgs

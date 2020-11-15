@@ -1,0 +1,908 @@
+[35m[1mScanning dependencies of target variant_topic_tools[0m
+[  5%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/BuiltinDataType.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/ArraySerializer.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/ArrayDataType.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/ArrayVariant.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArraySerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArraySerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArraySerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArraySerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArraySerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArraySerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArraySerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArraySerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/ArrayDataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 13%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/BuiltinSerializer.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/BuiltinVariant.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/CollectionVariant.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/DataType.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinSerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinSerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinSerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinSerializer.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinVariant.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinVariant.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinVariant.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/BuiltinVariant.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayDataType.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataType.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 23%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/DataTypeRegistry.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/CollectionVariant.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/CollectionVariant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/CollectionVariant.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/CollectionVariant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/CollectionVariant.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/CollectionVariant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/CollectionVariant.h:26[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/CollectionVariant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 26%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/Exceptions.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MD5Sum.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/Message.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataTypeRegistry.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataTypeRegistry.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataTypeRegistry.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/DataTypeRegistry.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 34%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageConstant.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Message.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Message.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Message.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Message.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 36%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageDataType.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageDefinition.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDataType.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDataType.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDataType.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDataType.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageConstant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageConstant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageConstant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageConstant.cpp:22[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 42%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageDefinitionParser.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDefinition.cpp:24[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDefinition.cpp:24[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDefinition.cpp:24[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageDefinition.cpp:24[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 44%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageHeader.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageMember.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageSerializer.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageTraits.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageType.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageMember.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageMember.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageMember.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Variant.h:33[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageConstant.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageMember.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageSerializer.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 57%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageTypeParser.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageVariable.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageType.cpp:29[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageType.cpp:29[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageType.cpp:29[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageType.cpp:29[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 63%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/MessageVariant.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageDataType.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageDataType.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageDataType.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageDataType.h:27[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.tpp:19[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.h:149[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariable.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.tpp:19[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.h:149[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariable.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.tpp:19[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.h:149[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariable.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.tpp:19[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageVariable.h:149[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/MessageVariable.cpp:20[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 65%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/Publisher.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/Serialization.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/Serializer.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/Subscriber.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Publisher.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Publisher.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Publisher.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Publisher.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Serializer.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Serializer.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Serializer.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Serializer.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Subscriber.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Subscriber.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Subscriber.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeRegistry.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Subscriber.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 76%] [32mBuilding CXX object CMakeFiles/variant_topic_tools.dir/src/Variant.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Variant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Variant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Variant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayVariant.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/Variant.cpp:19[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 78%] [32m[1mLinking CXX shared library /home/skpro19/catkin_ws/devel/.private/variant_topic_tools/lib/libvariant_topic_tools.so[0m
+[ 78%] Built target variant_topic_tools
+[35m[1mScanning dependencies of target echo[0m
+[35m[1mScanning dependencies of target info[0m
+[35m[1mScanning dependencies of target relay[0m
+[35m[1mScanning dependencies of target publish[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/info.dir/src/info.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/publish.dir/src/publish.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/echo.dir/src/echo.cpp.o[0m
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Subscriber.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/echo.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Subscriber.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/echo.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Subscriber.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/echo.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Subscriber.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/echo.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:15:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Publisher.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/publish.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_or.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_or.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_or.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:16:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Publisher.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/publish.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_and.hpp:18:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_and.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_and.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:17:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Publisher.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/publish.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_not.hpp:17:72:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_not.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_not.hpp) is deprecated"[01;36m[K)[m[K
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/type_traits/ice.hpp:18:0[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/BuiltinTypeTraits.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/ArrayTypeTraits.h:31[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/DataTypeTraits.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Serializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/MessageSerializer.h:28[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/include/variant_topic_tools/Publisher.h:29[m[K,
+                 from [01m[K/home/skpro19/catkin_ws/src/variant/variant_topic_tools/src/publish.cpp:21[m[K:
+[01m[K/usr/include/boost/type_traits/detail/ice_eq.hpp:17:71:[m[K [01;36m[Knote: [m[K#pragma message: NOTE: Use of this header (ice_eq.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (ice_eq.hpp) is deprecated"[01;36m[K)[m[K
+                                                                       [01;36m[K^[m[K
+[ 92%] [32m[1mLinking CXX executable /home/skpro19/catkin_ws/devel/.private/variant_topic_tools/lib/variant_topic_tools/echo[0m
+[ 94%] [32m[1mLinking CXX executable /home/skpro19/catkin_ws/devel/.private/variant_topic_tools/lib/variant_topic_tools/publish[0m
+[ 97%] [32m[1mLinking CXX executable /home/skpro19/catkin_ws/devel/.private/variant_topic_tools/lib/variant_topic_tools/relay[0m
+[100%] [32m[1mLinking CXX executable /home/skpro19/catkin_ws/devel/.private/variant_topic_tools/lib/variant_topic_tools/info[0m
+[100%] Built target echo
+[100%] Built target publish
+[100%] Built target info
+[100%] Built target relay

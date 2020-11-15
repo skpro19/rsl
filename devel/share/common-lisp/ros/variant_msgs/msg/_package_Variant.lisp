@@ -1,0 +1,1 @@
+/home/skpro19/catkin_ws/devel/.private/variant_msgs/share/common-lisp/ros/variant_msgs/msg/_package_Variant.lisp

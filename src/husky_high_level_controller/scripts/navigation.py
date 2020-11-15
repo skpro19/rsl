@@ -19,7 +19,7 @@ class HuskyBot:
 
         self.listener = tf.TransformListener() 
         
-        self.listener.waitForTransform('/base_laser'  , '/odom' , rospy.Time().now(), rospy.Duration(10.0))
+        #self.listener.waitForTransform('/base_laser'  , '/odom' , rospy.Time().now(), rospy.Duration(10.0))
 
 
         self.scan_subscriber = rospy.Subscriber('/scan', LaserScan, self.laser_callback)
