@@ -1,0 +1,8 @@
+prefix=/home/skpro19/git_test/rsl/install
+
+Name: husky_high_level_controller
+Description: Description of husky_high_level_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy sensor_msgs message_runtime

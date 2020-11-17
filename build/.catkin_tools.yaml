@@ -1,0 +1,6 @@
+devel_space: /home/skpro19/git_test/rsl/devel
+install: false
+install_space: /home/skpro19/git_test/rsl/install
+profile: default
+source_space: /home/skpro19/git_test/rsl/src
+workspace: /home/skpro19/git_test/rsl

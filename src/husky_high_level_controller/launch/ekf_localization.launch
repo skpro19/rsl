@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch> 
+    
+
+    <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization">
+    
+        <rosparam command="load" file="$(find husky_control)/config/localization.yaml" />
+    
+    </node>
+
+
+    <include file="$(find husky_description)/launch/description.launch" >
+        <arg name="laser_enabled" default="$(optenv laser_enabled 1)"/>
+        <arg name="realsense_enabled" default="$(optenv realsense_enabled)"/>
+        <arg name="urdf_extras" default="$(optenv urdf_extras)"/>
+    </include>
+
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />  
+
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find husky_high_level_controller)/rviz/config_file.rviz" />
+
+</launch>
