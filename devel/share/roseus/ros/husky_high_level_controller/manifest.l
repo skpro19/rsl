@@ -1,0 +1,1 @@
+/home/skpro19/git_test/rsl/devel/.private/husky_high_level_controller/share/roseus/ros/husky_high_level_controller/manifest.l

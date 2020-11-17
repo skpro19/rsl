@@ -7,6 +7,9 @@ from geometry_msgs.msg import PointStamped,  Point, Twist
 import tf
 from visualization_msgs.msg import Marker 
 
+from husky_high_level_controller.srv import StartStopBot, StartStopBotResponse
+
+
 class HuskyBot: 
 
     def __init__(self): 
@@ -16,21 +19,37 @@ class HuskyBot:
             
         print "huskyBot Initiated"
 
+    
+        self.emergency_stop = False 
 
         self.listener = tf.TransformListener() 
-        
-        #self.listener.waitForTransform('/base_laser'  , '/odom' , rospy.Time().now(), rospy.Duration(10.0))
-
 
         self.scan_subscriber = rospy.Subscriber('/scan', LaserScan, self.laser_callback)
         
-
         self.velocity_publisher = rospy.Publisher('/cmd_vel' , Twist, queue_size = 1000) 
         
         self.marker_publisher = rospy.Publisher('/rviz_visusalizer' ,  Marker, queue_size = 1)
         
+        self.start_stop_service = rospy.Service('start_stop_bot_service', StartStopBot, self.start_stop_service_callback) 
+
+
         rospy.spin()
-                
+    
+
+
+    def start_stop_service_callback(self, req):
+
+        server_resp = StartStopBotResponse()
+        
+        self.emergency_stop = req.data
+
+        server_resp.success = True
+        server_resp.message = 'Service command ran successfully'
+
+        return server_resp
+
+
+
     def send_markers_for_rviz(self, odom_point): 
         
         print "Inside the send markers function" 
@@ -41,9 +60,7 @@ class HuskyBot:
 
         marker  = Marker() 
 
-        #marker.header.frame_id = "base_laser" 
         marker.header.frame_id = odom_point.header.frame_id
-        #marker.header.stamp = rospy.Time(0 
         marker.header.stamp = odom_point.header.stamp 
         marker.id = 0 
 
@@ -51,10 +68,6 @@ class HuskyBot:
         marker.action = marker.ADD 
         
         marker.pose.position = odom_point.point
-
-        #marker.pose.position.x = p_x
-        #marker.pose.position.y =p_y
-        #marker.pose.position.z =0
 
         marker.pose.orientation.x = 0 
         marker.pose.orientation.y=0
@@ -79,7 +92,6 @@ class HuskyBot:
 
         laser_point_stamped  = PointStamped() 
 
-       
         laser_point_stamped.header.frame_id = "/base_laser"
         laser_point_stamped.header.stamp = rospy.Time() 
 
@@ -178,15 +190,17 @@ class HuskyBot:
         ''' Simple P controller to navigate the bot ''' 
 
         if pillar_dis > tolerance : 
+                
+                if self.emergency_stop is False: 
 
-            v_x = 1.5 * pillar_dis 
+                    v_x = 1.5 * pillar_dis 
 
-            w_z = 4 * (0 - pillar_ang) 
+                    w_z = 4 * (0 - pillar_ang) 
 
-            vel_msg.linear.x = v_x 
-            vel_msg.angular.z  = w_z 
+                    vel_msg.linear.x = v_x 
+                    vel_msg.angular.z  = w_z 
 
-            self.velocity_publisher.publish(vel_msg) 
+                    self.velocity_publisher.publish(vel_msg) 
         
 
         p_x = pillar_dis * math.cos(pillar_ang) 

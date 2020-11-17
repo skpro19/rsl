@@ -1,0 +1,1 @@
+/home/skpro19/git_test/rsl/devel/.private/husky_high_level_controller/share/husky_high_level_controller/cmake/husky_high_level_controller-msg-extras.cmake

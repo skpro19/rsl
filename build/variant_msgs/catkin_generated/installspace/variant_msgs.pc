@@ -1,8 +1,0 @@
-prefix=/home/skpro19/catkin_ws/install
-
-Name: variant_msgs
-Description: Description of variant_msgs
-Version: 0.1.5
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs

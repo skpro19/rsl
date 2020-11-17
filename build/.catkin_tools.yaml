@@ -1,6 +1,6 @@
-devel_space: /home/skpro19/catkin_ws/devel
+devel_space: /home/skpro19/git_test/rsl/devel
 install: false
-install_space: /home/skpro19/catkin_ws/install
+install_space: /home/skpro19/git_test/rsl/install
 profile: default
-source_space: /home/skpro19/catkin_ws/src
-workspace: /home/skpro19/catkin_ws
+source_space: /home/skpro19/git_test/rsl/src
+workspace: /home/skpro19/git_test/rsl
